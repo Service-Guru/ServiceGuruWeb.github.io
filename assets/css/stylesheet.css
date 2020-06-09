@@ -19,3 +19,7 @@
   text-decoration: underline;
   color: black;
 }
+
+#menu-toggle:checked + #menu {
+    display: block;
+  }
