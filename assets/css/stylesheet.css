@@ -1,3 +1,4 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 .sticky-header {
   position: fixed;
@@ -13,6 +14,12 @@
   .bottom-padding-small {
     padding-bottom: 40px;
   }
+	#smaller-text {
+		font-size: 35px;
+	}
+	#header {
+		padding-top: 10px;
+	}
 }
  
 .links {
@@ -23,3 +30,8 @@
 #menu-toggle:checked + #menu {
     display: block;
   }
+
+	
+	.gradient {
+		background: linear-gradient(90deg, rgba(70,77,202,1) 54%, rgba(52,160,254,1) 100%);
+	}
